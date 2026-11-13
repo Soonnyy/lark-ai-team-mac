@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="lark-team-mobile.png" width="380" alt="Lark 手机群聊实测截图，DeepSeek、Codex 和 Claude 分别汇报职业咨询欢迎页的进度">
+</p>
+
+> 手机端实测截图（已脱敏）。DeepSeek 交付咨询问题，Codex 接入页面，Claude 汇报审查进度，并在达到本轮用量上限时停止。
 # 用一台 Mac，把三个 AI 接进同一个 Lark 群
 
 **在手机上 @ Codex 写代码、@ Claude 做审查、@ DeepSeek 梳理问题。** 三个机器人各用自己的身份回复，由你的 Apple Silicon Mac 运行 OpenClaw。
