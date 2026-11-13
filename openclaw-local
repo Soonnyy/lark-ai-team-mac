@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+root=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+export OPENCLAW_STATE_DIR="$root/.state"
+export OPENCLAW_CONFIG_PATH="$OPENCLAW_STATE_DIR/openclaw.json"
+export PATH="$root/.tools/bin:$PATH"
+exec "$root/.tools/runtime/node_modules/.bin/openclaw" "$@"
